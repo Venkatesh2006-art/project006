@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 
 const App = () => {
-  const IMGURL = import.meta.env.BASE_URL;
-  const [tooglePassword, setTooglePassword] = useState("password");
+ const IMGURL = import.meta.env.BASE_URL + "dist/";  const [tooglePassword, setTooglePassword] = useState("password");
   const [toogleConfirmPassword, setToogleConfirmPassword] = useState("password");
   const [isLoginView, setIsLoginView] = useState(true);
   function tooglePwd(){
